@@ -9,6 +9,9 @@
         <module name="Birdguide_BE" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Birdguide_BE" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
