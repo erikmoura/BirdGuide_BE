@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="087508d8-1973-46b3-8c14-deea0fcbf76f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Birdguide_BE/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Birdguide_BE/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Birdguide_BE/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Birdguide_BE/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Birdguide_BE/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Birdguide_BE/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/Birdguide_BE/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Birdguide_BE/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/Birdguide_BE/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Birdguide_BE/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Birdguide_BE/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Birdguide_BE/src/main/java/com/birdguide/Birdguide_BE/BirdguideBeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Birdguide_BE/src/main/java/com/birdguide/Birdguide_BE/BirdguideBeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Birdguide_BE/src/main/java/com/birdguide/Birdguide_BE/model/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/Birdguide_BE/src/main/java/com/birdguide/Birdguide_BE/model/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Birdguide_BE/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Birdguide_BE/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Birdguide_BE/src/test/java/com/birdguide/Birdguide_BE/BirdguideBeApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Birdguide_BE/src/test/java/com/birdguide/Birdguide_BE/BirdguideBeApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2iCxC7CGrv0eWpQaipkrwCgHhUj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BirdguideBeApplication.executor": "Run",
+    "Maven.Birdguide_BE [install].executor": "Run",
+    "Maven.Birdguide_BE [package].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "note",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/eriki/OneDrive/Área de Trabalho/Facul/SD/trabalho3SD/BirdGuide_BE",
+    "settings.editor.selected.configurable": "advanced.settings"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="BirdguideBeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.birdguide.Birdguide_BE.BirdguideBeApplication" />
+      <module name="Birdguide_BE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.birdguide.Birdguide_BE.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="BirdGuide_BE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="BirdGuide_BE" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BirdguideBeApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="087508d8-1973-46b3-8c14-deea0fcbf76f" name="Changes" comment="" />
+      <created>1719008231110</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719008231110</updated>
+    </task>
+    <servers />
+  </component>
+</project>
