@@ -5,6 +5,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
 
+import java.util.Set;
+import java.util.HashSet;
+
 @Table(name = "users")
 @Entity
 @Data
@@ -23,4 +26,13 @@ public class User {
 
     @Column(nullable = false, unique = true)
     private String email;
+
+    @ManyToMany
+    @JoinTable(
+            name = "user_favorites",
+            joinColumns = @JoinColumn(name = "user_id"),
+            inverseJoinColumns = @JoinColumn(name = "bird_id")
+    )
+    private Set<Bird> favorites = new HashSet<>();
+
 }

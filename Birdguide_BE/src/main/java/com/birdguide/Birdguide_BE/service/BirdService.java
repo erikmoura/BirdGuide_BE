@@ -9,6 +9,8 @@ import com.birdguide.Birdguide_BE.repository.BirdRepository;
 import com.birdguide.Birdguide_BE.model.Bird;
 import com.birdguide.Birdguide_BE.model.BirdResponse;
 
+import java.util.List;
+
 @Service
 public class BirdService {
 
@@ -21,6 +23,18 @@ public class BirdService {
     // metodo para listar todas as aves
     public Iterable<Bird> listar(){
         return repo.findAll();
+    }
+
+    public List<Bird> findByNomeContaining(String nome) {
+        return repo.findByNomeContainingIgnoreCase(nome);
+    }
+
+    public List<Bird> findByNomeStartingWith(String inicial) {
+        return repo.findByNomeStartingWithIgnoreCase(inicial);
+    }
+
+    public Bird getBirdById(Long id) {
+        return repo.findById(id).orElse(null);
     }
 
     /*
