@@ -13,6 +13,7 @@ import java.util.Set;
 
 @RestController
 @RequestMapping("/api/users")
+@CrossOrigin("http://localhost:5173")
 public class UserController {
 
     @Autowired
@@ -36,13 +37,13 @@ public class UserController {
     }
 
     @PostMapping("/login")
-    public ResponseEntity<String> loginUser(@RequestBody User user) {
+    public ResponseEntity<Long> loginUser(@RequestBody User user) {
         Optional<User> loggedInUser = userService.loginUser(user.getUsername(), user.getSenha());
         if (loggedInUser.isPresent()) {
-            userService.setLoggedUser(user.getId());
-            return ResponseEntity.ok("Login efetuado com sucesso.");
+            userService.setLoggedUser(loggedInUser.get().getId());
+            return ResponseEntity.ok(loggedInUser.get().getId());
         }
-        return ResponseEntity.status(401).body("Nome de usuário ou senha inválidos.");
+        return ResponseEntity.status(401).body(null);
     }
 
     @GetMapping("/{userId}/favorites")

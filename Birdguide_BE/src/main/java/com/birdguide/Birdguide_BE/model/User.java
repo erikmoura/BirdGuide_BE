@@ -1,9 +1,7 @@
 package com.birdguide.Birdguide_BE.model;
 
 import jakarta.persistence.*;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.AllArgsConstructor;
+import lombok.*;
 
 import java.util.Set;
 import java.util.HashSet;
@@ -13,6 +11,8 @@ import java.util.HashSet;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Getter
+@Setter
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -30,8 +30,8 @@ public class User {
     @ManyToMany
     @JoinTable(
             name = "user_favorites",
-            joinColumns = @JoinColumn(name = "user_id"),
-            inverseJoinColumns = @JoinColumn(name = "bird_id")
+            joinColumns = @JoinColumn(name = "users_id"),
+            inverseJoinColumns = @JoinColumn(name = "birds_id")
     )
     private Set<Bird> favorites = new HashSet<>();
 
