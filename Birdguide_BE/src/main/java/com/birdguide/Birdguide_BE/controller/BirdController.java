@@ -22,10 +22,6 @@ public class BirdController {
         return servico.listar();
     }
 
-    @GetMapping("/")
-    public String route(){
-        return "test";
-    }
 
     @GetMapping("/pesquisar")
     public List<Bird> pesquisar(@RequestParam String nome) {

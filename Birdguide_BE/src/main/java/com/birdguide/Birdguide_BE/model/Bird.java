@@ -20,15 +20,18 @@ public class Bird {
 
     private String local;
 
+    private String image;
+
     @Lob // super large string
     private String description;
 
     public Bird(){
     }
 
-    public Bird(String nome, String local, String description) {
+    public Bird(String nome, String local, String description, String image) {
         this.nome = nome;
         this.local = local;
         this.description = description;
+        this.image = image;
     }
 }
